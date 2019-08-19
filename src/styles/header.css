@@ -1,0 +1,71 @@
+header {
+  --icon-height: 50px;
+
+  display: flex;
+  flex-direction: column;  
+  justify-content: center;
+  align-items: center;
+
+  padding: 10px;
+  font-weight: bold;
+  background-color: #e7931a;
+  color: var(--second-color);
+}
+
+.phones-container  {
+  display: flex;
+  align-items: center;
+}
+
+.address-container {
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+}
+
+.header__icon {
+  height: var(--icon-height);
+  margin-right: 10px;
+}
+
+header .information-container {
+  display: flex;
+  align-items: center;
+}
+
+.header__container {
+  display: flex;
+  width: var(--page-width);
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__list {
+  display: flex;
+  flex-direction: column;
+}
+
+.navigation__list {
+  display: flex;
+  width: var(--page-width);
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin-top: 30px; 
+}
+
+.navigation__list-item {
+  color: var(--second-color);
+  text-decoration: none;
+  margin: 10px;
+  font-size: 1.5em;
+  padding: 5px 20px;
+  text-transform: uppercase;
+  border: 3px solid transparent;
+}
+
+.navigation__list-item:hover {
+  border-color: var(--decoration-color);
+  transition: border-color .5s;
+}

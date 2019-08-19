@@ -1,0 +1,28 @@
+{
+  "name": "honey",
+  "version": "1.0.0",
+  "private": true,
+  "repository": "https://github.com/kparf/honey.git",
+  "author": "Kiryl Parfiankou <kiryl.parfiankou@itechart-group.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack --config webpack.config.js --mode=development"
+  },
+  "dependencies": {
+    "jsep": "^0.3.4",
+    "mavo": "^0.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.2.0",
+    "file-loader": "^4.2.0",
+    "image-webpack-loader": "^5.0.0",
+    "img-loader": "^3.0.1",
+    "style-loader": "^1.0.0",
+    "url-loader": "^2.1.0",
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.7"
+  }
+}

@@ -1,0 +1,14 @@
+:root {
+  --page-width: 960px;
+
+  --main-color: #000;
+  --second-color: #fff;
+  --decoration-color: #000;
+}
+
+body {
+  margin: 0;
+  font-family: 'Exo 2', sans-serif;
+  background-image: url('../images/bees-panel-texture.svg');
+  background-size: 100px 100px;
+}
