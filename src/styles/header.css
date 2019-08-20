@@ -1,5 +1,6 @@
 header {
   --icon-height: 50px;
+  --header-backgound: #fbd303f0;
 
   display: flex;
   flex-direction: column;  
@@ -8,8 +9,8 @@ header {
 
   padding: 10px;
   font-weight: bold;
-  background-color: #e7931a;
-  color: var(--second-color);
+  background-color: var(--header-backgound);
+  color: var(--main-color);
 }
 
 .phones-container  {
@@ -56,7 +57,7 @@ header .information-container {
 }
 
 .navigation__list-item {
-  color: var(--second-color);
+  color: var(--main-color);
   text-decoration: none;
   margin: 10px;
   font-size: 1.5em;
