@@ -49,8 +49,29 @@
               </article>
             </section>
       </div>
+      <div class="hello">
+        <section property="hello" class="hello__section">
+          <h2 property="hello-header" class="hello__header" mv-default="Заголовок"></h2>
+          <p property="hello-info" class="hello__info" mv-default="Информация"></p>
+        </section>
+      </div>
+      <div class="values section-wrapper ">
+        <section class="values__section section">
+          <article property="valuesArticle" class="values__article" mv-multiple>
+            <img property="image" class="values__article-image" mv-default="https://via.placeholder.com/300x500.png">
+            <div class="values__article-info">
+              <h6 property="header" class="values__article-header" mv-default="Заголовок"></h6>
+              <p property="description" class="values__article-description" mv-default="Описание"></p>
+            </div>
+          </article>
+        </section>
+      </div>
     </main>
-
+    <footer>
+      <div property="footer" class="footer-container">
+        <span property="text" class="footer__text" mv-default="Текст"></span>
+      </div>
+    </footer>
     <script src="main.js"></script>
   </body>
 </html>

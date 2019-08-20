@@ -3,8 +3,10 @@
 
   --main-color: #000;
   --second-color: #fff;
+  --accent-color: #fbd303f0;
   --decoration-color: #000;
   --base-background: white;
+  --second-background: #000;
 }
 
 body {
@@ -15,4 +17,13 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+}
+
+.section-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.section {
+  width: var(--page-width);
 }

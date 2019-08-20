@@ -13,7 +13,8 @@
 }
 
 .products__article {
-  margin: 20px 0; 
+  margin: 20px 0;
+  max-width: 204px;
 }
 
 .products__article-image {

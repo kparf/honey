@@ -1,6 +1,5 @@
 header {
   --icon-height: 50px;
-  --header-backgound: #fbd303f0;
 
   display: flex;
   flex-direction: column;  
@@ -9,7 +8,7 @@ header {
 
   padding: 10px;
   font-weight: bold;
-  background-color: var(--header-backgound);
+  background-color: var(--accent-color);
   color: var(--main-color);
 }
 

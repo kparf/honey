@@ -1,0 +1,18 @@
+.hello {
+  display: flex;
+  justify-content: center;
+  background: #fbd303f0;
+}
+
+.hello__section {
+  width: var(--page-width);
+  padding: 40px 0;
+}
+
+.hello__header {
+  font-size: 2em;
+}
+
+.hello__info {
+  font-size: 1.5em;
+}
