@@ -7,6 +7,9 @@
   --decoration-color: #000;
   --base-background: white;
   --second-background: #000;
+
+  --carusel-text-width: 960px;
+  --carusel-text-color: white;
 }
 
 body {
