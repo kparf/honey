@@ -19,7 +19,7 @@ footer {
   font-size: 1.5em;
   text-align: center;
   color: var(--second-color);
-  background-color: var(black);
+  background-color: var(--app-main-color);
   padding: 10px;
 }
 
@@ -28,4 +28,12 @@ footer {
   width: var(--page-width);
   justify-content: center;
   align-items: center;
+}
+
+.socials__icon-image {
+  height: 50px;
+}
+
+.socials__icon {
+  margin: 0 20px;
 }
