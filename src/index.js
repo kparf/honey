@@ -6,4 +6,7 @@ import './styles/values.css';
 import './styles/footer.css';
 import { caruselInit } from './carusel';
 
-caruselInit();
+
+Mavo.inited
+.then(() => Mavo.all[0].dataLoaded)
+.then(caruselInit);
