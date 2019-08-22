@@ -27,7 +27,7 @@
 .values__article-description {
   font-size: 20px;
   padding: 10px;
-  background-color: var(--main-color);
+  background-color: var(--app-main-color);
   color: var(--second-color);
   width: fit-content;
 }

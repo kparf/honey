@@ -4,7 +4,7 @@
   <script src="https://get.mavo.io/mavo.es5.min.js"></script>
   <link rel="stylesheet" href="https://get.mavo.io/mavo.css">
   <link href="https://fonts.googleapis.com/css?family=Exo+2&display=swap" rel="stylesheet">
-  <body mv-app="honey" mv-storage="local">
+  <body mv-app="honey" mv-storage="https://github.com/kparf/honey-data" mv-plugins="cropper">
     <header>
       <div class="header__container">
           <img property="logo" src="https://via.placeholder.com/100.png" />
@@ -83,11 +83,23 @@
         </section>
       </div>
     </main>
+
     <footer>
-      <div property="footer" class="footer-container">
+      <div class="socials-container">
+        <div property="social" class="socials__icon" mv-multiple>
+          <a property="social-link" class="socials__icon-link" mv-default="https://twitter.com">
+            <img property="socials__icon-image" mv-default="https://via.placeholder.com/50.png"/>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-devider"></div>
+
+      <div property="info" class="info-container">
         <span property="text" class="footer__text" mv-default="Текст"></span>
       </div>
     </footer>
+
     <script src="main.js"></script>
   </body>
 </html>

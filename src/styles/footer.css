@@ -1,16 +1,31 @@
 footer {
+  padding: 20px 0;
   display: flex;
+  flex-direction: column;
   margin: 50px 0;
-  padding-top: 10px; 
-  justify-content: center;
-  border-top: 4px solid var(--accent-color);
+  padding-top: 10px;
+  align-items: center;
 }
 
-.footer-container {
+.footer-devider {
+  border-top: 4px solid var(--accent-color);
+  align-self: stretch;
+  margin: 20px 0;
+}
+
+.info-container {
+  display: flex;
   width: var(--page-width);
-  padding: 20px 0;
   font-size: 1.5em;
   text-align: center;
   color: var(--second-color);
-  background: var(--main-color);
+  background-color: var(--app-main-color);
+  padding: 10px;
+}
+
+.socials-container {
+  display: flex;
+  width: var(--page-width);
+  justify-content: center;
+  align-items: center;
 }
