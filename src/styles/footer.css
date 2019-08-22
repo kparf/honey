@@ -19,7 +19,7 @@ footer {
   font-size: 1.5em;
   text-align: center;
   color: var(--second-color);
-  background-color: var(--app-main-color);
+  background-color: var(black);
   padding: 10px;
 }
 

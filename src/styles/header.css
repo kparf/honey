@@ -9,7 +9,7 @@ header {
   padding: 10px;
   font-weight: bold;
   background-color: var(--accent-color);
-  color: var(--main-color);
+  color: var(--app-main-color);
 }
 
 .phones-container  {
@@ -56,7 +56,7 @@ header .information-container {
 }
 
 .navigation__list-item {
-  color: var(--main-color);
+  color: var(--app-main-color);
   text-decoration: none;
   margin: 10px;
   font-size: 1.5em;
