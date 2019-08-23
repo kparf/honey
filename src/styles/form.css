@@ -74,4 +74,5 @@
 .form__button-container button {
   margin-right: 20px;
   font-weight: bold;
+  background: var(--second-color);
 }
