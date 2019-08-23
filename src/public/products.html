@@ -42,7 +42,7 @@
                 <h2 class="section__header-text">Продукция <img class="section__header-logo" src="images/products-logo.svg" /></h2>
             </div>
           </div>
-          <div class="section__content products__content">
+          <div class="products__content">
             <article property="product" class="products__article" mv-multiple>
               <img property="product-image" class="products__article-image" mv-default="https://via.placeholder.com/200.png"/>
               <div class="products__article-price-container">
@@ -53,6 +53,39 @@
                 <p property="description" class="products__article-info-description" mv-default="Описание"></p>
               </div>
             </article>
+          </div>
+        </section>
+      </div>
+      <div class="form">
+        <section class="form__section">
+          <div class="section__header form__header">
+            <div class="section__header-wrapper">
+              <h2 class="section__header-text">Форма заказа <img class="section__header-logo" src="images/form-logo.svg" /></h2>
+            </div>
+          </div>
+          <div class="section__content form__content-wrapper">
+            <form class="form__content">
+              <label class="form__name">
+                <span class="form__label">Имя</span>
+                <input type="text" name="name"/>
+              </label>
+              <label class="form__email">
+                <span class="form__label">Email</span>
+                <input type="email" name="email"/>
+              </label>
+              <label>
+                <span class="form__label">Телефон</span>
+                <input class="form__phone" type="text" name="phone"/>
+              </label>
+              <label class="form__message">
+                <span class="form__label">Сообщение</span>
+                <textarea rows="5"></textarea>
+              </label>
+              <div class="form__button-container">
+                <button>Отправить</button>
+                <button>Очистить</button>
+              </div>
+            </form>
           </div>
         </section>
       </div>

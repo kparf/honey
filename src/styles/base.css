@@ -50,7 +50,14 @@ body {
   display: flex;
   padding: 10px;
   font-size: 3em;
-  align-items: center; 
+  align-items: center;
+  background: #fbd30391;
+}
+
+.section__content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 .section__header-wrapper {
