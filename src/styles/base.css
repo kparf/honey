@@ -30,3 +30,40 @@ body {
 .section {
   width: var(--page-width);
 }
+
+.section__contet {
+  display: flex;
+}
+
+.section__header {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+.section__header-logo {
+  height: 50px;
+  margin-left: 10px;
+}
+
+.section__header-text {
+  display: flex;
+  padding: 10px;
+  font-size: 3em;
+  align-items: center; 
+}
+
+.section__header-wrapper {
+  display: flex;
+  width: var(--page-width);
+  align-items: center;
+}
+
+.section__header-wrapper:after,
+.section__header-wrapper:before,
+.section__header:after,
+.section__header:before {
+  content: '';
+  flex-grow: 1;
+  border-top: 4px solid var(--accent-color);
+}

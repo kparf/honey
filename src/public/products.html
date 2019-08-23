@@ -34,25 +34,14 @@
         </ul>
       </nav>
     </header>
-    <main>
-      <div class="carusel">
-        <div class="carusel__view">
-          <div class="carusel__list ">
-              <div property="slide" class="carusel__slide" mv-multiple>
-                <img property="image" class="carusel__slide-image" mv-default="https://via.placeholder.com/200.png" />
-                <div class="carusel__slide-text-container">
-                  <div class="carusel__slide-text-wrapper">
-                    <div class="carusel__slide-text">
-                      <span property="text" mv-default="текст"></span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-          </div>
-        </div>
-      </div>
+    <main property="products-page">
       <div class="products">
         <section class="products__section">
+          <div class="section__header products__header">
+            <div class="section__header-wrapper">
+                <h2 class="section__header-text">Продукция <img class="section__header-logo" src="images/products-logo.svg" /></h2>
+            </div>
+          </div>
           <div class="section__content products__content">
             <article property="product" class="products__article" mv-multiple>
               <img property="product-image" class="products__article-image" mv-default="https://via.placeholder.com/200.png"/>
@@ -67,25 +56,7 @@
           </div>
         </section>
       </div>
-      <div class="hello">
-        <section property="hello" class="hello__section">
-          <h2 property="hello-header" class="hello__header" mv-default="Заголовок"></h2>
-          <p property="hello-info" class="hello__info" mv-default="Информация"></p>
-        </section>
-      </div>
-      <div class="values section-wrapper ">
-        <section class="values__section section">
-          <article property="valuesArticle" class="values__article" mv-multiple>
-            <img property="image" class="values__article-image" mv-default="https://via.placeholder.com/300x500.png">
-            <div class="values__article-info">
-              <h6 property="header" class="values__article-header" mv-default="Заголовок"></h6>
-              <p property="description" class="values__article-description" mv-default="Описание"></p>
-            </div>
-          </article>
-        </section>
-      </div>
     </main>
-
     <footer>
       <div class="socials-container">
         <div property="social" class="socials__icon" mv-multiple>

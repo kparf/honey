@@ -9,9 +9,13 @@ module.exports = {
     path: path.resolve(__dirname, 'dist')
   },
   plugins: [
-    new CleanWebpackPlugin(),
+    new CleanWebpackPlugin({
+      verbose: true,
+      cleanStaleWebpackAssets: false,
+    }),
     new CopyPlugin([
-      { from: './src/public', to: '.' }
+      { from: './src/public', to: '.' },
+      { from: './src/icons', to: 'icons' },
     ])
   ],
   module: {

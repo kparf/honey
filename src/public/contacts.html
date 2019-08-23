@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <title>Мёд</title>
+  <script src="https://get.mavo.io/mavo.es5.min.js"></script>
+  <link rel="stylesheet" href="https://get.mavo.io/mavo.css">
+  <link href="https://fonts.googleapis.com/css?family=Exo+2&display=swap" rel="stylesheet">
+  <body mv-app="honey" mv-storage="https://github.com/kparf/honey-data" mv-plugins="cropper">
+    <header>
+      <div class="header__container">
+          <img property="logo" src="https://via.placeholder.com/100.png" />
+          <div class="information-container">
+            <div class="phones-container">
+                <img class="header__icon" src="icons/baseline-phone-24px.svg">
+                <div class="phone-list header__list">
+                    Телефон:
+                    <span property="phone" mv-multiple mv-default="+375 11 111 111"></span>
+                </div>
+              </div>
+              <div class="address-container">
+                <img class="header__icon" src="icons/baseline-pin_drop-24px.svg">
+                <div class="address-list header__list">
+                  Адрес:
+                  <span property="address" mv-multiple mv-default="Адрес"></span>
+                </div>
+              </div>
+          </div>
+      </div>
+      <nav>
+        <ul class="navigation__list">
+          <li><a class="navigation__list-item" href="/">Главная</a></li>
+          <li><a class="navigation__list-item" href="/products">Продукция</a></li>
+          <li><a class="navigation__list-item" href="/about">О Нас</a></li>
+          <li><a class="navigation__list-item" href="/contacts">Контакты</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <footer>
+      <div class="socials-container">
+        <div property="social" class="socials__icon" mv-multiple>
+          <a property="social-link" class="socials__icon-link" mv-default="https://twitter.com">
+            <img property="socials__icon-image" class="socials__icon-image" mv-default="https://via.placeholder.com/50.png"/>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-devider"></div>
+
+      <div property="info" class="info-container">
+        <span property="text" class="footer__text" mv-default="Текст"></span>
+      </div>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>

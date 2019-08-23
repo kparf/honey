@@ -1,10 +1,14 @@
 .products {
   --price-color: black;
-  display: flex;
-  justify-content: center;
 }
 
 .products__section {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.products__content {
   width: var(--page-width);
   display: flex;
   padding: 50px 0;
@@ -15,6 +19,10 @@
 .products__article {
   margin: 20px 0;
   max-width: 204px;
+}
+
+.products__header .section__header-wrapper::before {
+  flex-grow: 0;
 }
 
 .products__article-image {
