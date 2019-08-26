@@ -1,7 +1,7 @@
 const StaticServer = require('static-server');
 const config = require('./src/config');
 
-console.log(config);
+
 const server = new StaticServer({
   rootPath: config.staticPath,            // required, the root of the server file tree
   port: config.port,               // required, the port to listen
