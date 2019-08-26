@@ -1,10 +1,10 @@
-const path = require('path');
 const StaticServer = require('static-server');
+const config = require('./src/config');
 
-
+console.log(config);
 const server = new StaticServer({
-  rootPath: path.join(__dirname, './dist'),            // required, the root of the server file tree
-  port: 3001,               // required, the port to listen
+  rootPath: config.staticPath,            // required, the root of the server file tree
+  port: config.port,               // required, the port to listen
   name: 'my-http-server',   // optional, will set "X-Powered-by" HTTP header
   cors: '*',                // optional, defaults to undefined
   followSymlink: true,      // optional, defaults to a 404 error

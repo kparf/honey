@@ -11,7 +11,8 @@
   },
   "dependencies": {
     "jsep": "^0.3.4",
-    "mavo": "^0.2.0"
+    "mavo": "^0.2.0",
+    "rc": "^1.2.8"
   },
   "devDependencies": {
     "@babel/core": "^7.5.5",
