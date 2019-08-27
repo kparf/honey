@@ -8,6 +8,8 @@ export function caruselInit() {
   const slides = document.getElementsByClassName('carusel__slide');
   let direction = true;
 
+  list.style.setProperty('--shift', `0px`);
+
   const observer = new IntersectionObserver((entries, observer) => {
     const visibleList = Array.from(entries)
     .filter(entry => entry.isIntersecting);

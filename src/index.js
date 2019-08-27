@@ -8,7 +8,7 @@ import './styles/form.css';
 import { caruselInit } from './carusel';
 
 
-if (Mavo) {
+if (typeof Mavo != "undefined") {
   Mavo.inited
   .then(() => Mavo.all[0].dataLoaded)
   .then(caruselInit);
