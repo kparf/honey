@@ -36,6 +36,7 @@ body {
 }
 
 .section__header {
+  --default-secion-header-border-color: #0000009e;
   display: flex;
   width: 100%;
   align-items: center;
@@ -49,9 +50,10 @@ body {
 .section__header-text {
   display: flex;
   padding: 10px;
-  font-size: 3em;
+  font-size: 2em;
   align-items: center;
   background: #fbd30391;
+  border: 4px solid var(--default-secion-header-border-color);
 }
 
 .section__content {

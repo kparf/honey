@@ -5,6 +5,7 @@ import './styles/hello.css';
 import './styles/values.css';
 import './styles/footer.css';
 import './styles/form.css';
+import './styles/description.css';
 import { caruselInit } from './carusel';
 
 

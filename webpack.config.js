@@ -18,6 +18,7 @@ module.exports = {
     new CopyPlugin([
       { from: './src/public', to: '.' },
       { from: './src/icons', to: 'icons' },
+      { from: './libs', to: 'libs' },
     ])
   ],
   module: {

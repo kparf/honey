@@ -5,7 +5,7 @@
   <script src="https://get.mavo.io/mavo.es5.min.js"></script>
   <link rel="stylesheet" href="https://get.mavo.io/mavo.css">
   <link href="https://fonts.googleapis.com/css?family=Exo+2&display=swap" rel="stylesheet">
-  <body mv-app="honey" mv-storage="https://github.com/kparf/honey-data" mv-plugins="cropper">
+  <body mv-app="honey" mv-storage="https://github.com/kparf/honey-data" mv-plugins="cropper markdown">
     <header>
       <div class="header__container">
           <img property="logo" src="https://via.placeholder.com/100.png" />
@@ -35,7 +35,21 @@
         </ul>
       </nav>
     </header>
-
+    <main property="contacts-page">
+      <div class="description">
+        <section class="description__section">
+          <div class="section__header products__header">
+            <div class="section__header-wrapper">
+                <h2 class="section__header-text">Контакты<img class="section__header-logo" src="images/products-logo.svg" /></h2>
+            </div>
+          </div>
+          <div class="description__content">
+            <article property="description" mv-default="Контент" class="description__content-container markdown">
+            </article>
+          </div>
+        </section>
+      </div>
+    </main>
     <footer>
       <div class="socials-container">
         <div property="social" class="socials__icon" mv-multiple>
